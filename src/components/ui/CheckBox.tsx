@@ -37,24 +37,24 @@ const CheckBox: React.FC<CheckBoxProps> = ({
                     rounded-[6px]
                     
                     hover:border-[#BDBDBD] 
-                    hover:bg-[url('./checkMarkLight.svg')] 
+                    hover:bg-[url('/checkMarkLight.svg')] 
                     hover:bg-no-repeat 
                     hover:bg-center
                     
                     active:outline-2 
                     active:outline-blue-300
-                    active:bg-[url('./checkMark.svg')] 
+                    active:bg-[url('/checkMark.svg')] 
                     active:bg-no-repeat 
                     active:bg-center
                     
                     checked:bg-[#2469F6]
                     checked:border-blue-600 
-                    checked:bg-[url('./checkMarkWhite.svg')] 
+                    checked:bg-[url('/checkMarkWhite.svg')] 
                     checked:bg-no-repeat 
                     checked:bg-center
                     
                     checked:hover:bg-[#5087F8]
-                    checked:hover:bg-[url('./checkMarkWhite.svg')] 
+                    checked:hover:bg-[url('/checkMarkWhite.svg')] 
                     checked:hover:bg-no-repeat 
                     checked:hover:bg-center
                     checked:hover:border-blue-500
